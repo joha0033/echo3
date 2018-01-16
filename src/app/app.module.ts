@@ -10,12 +10,14 @@ import { AppComponent } from './app.component';
 
 import { environment } from './../environments/environment';
 import { NavbarComponent } from './shared/navbar/navbar.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
