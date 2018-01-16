@@ -11,6 +11,7 @@ import { AppComponent } from './app.component';
 import { environment } from './../environments/environment';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { JokeListComponent } from './joke-list/joke-list.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { FooterComponent } from './shared/footer/footer.component';
     AppComponent,
     NavbarComponent,
     FooterComponent,
+    JokeListComponent,
   ],
   imports: [
     BrowserModule,

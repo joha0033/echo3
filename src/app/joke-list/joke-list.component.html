@@ -1,0 +1,9 @@
+<ul>
+  <div *ngFor="let joke of coursesObservable | async">
+      <ngb-alert type="info" [dismissible]="false">
+          <h3><a href="#">{{joke.title}}</a> </h3>
+          <p>{{joke.setup}}</p>
+          <p>{{joke.punchline}}</p>
+      </ngb-alert>
+  </div>
+</ul>
